@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-gray-100 text-left p-8 text-white rounded-xl m-12 text-gray-600 text-xl">
+      <div className="bg-gray-800 text-left p-8 text-white rounded-xl m-12 text-gray-100 text-xl">
         <h1 className="font-bold">Welcome to React, Elliott!</h1>
         <p>
           We're going to go through a few steps to get you set up with React.
@@ -65,7 +65,7 @@ export default function Home() {
         </ul>
         <h1 className="font-bold mt-8">Let's gooooooooooo</h1>
         <div
-          class="tenor-gif-embed"
+          className="tenor-gif-embed"
           data-postid="8989586"
           data-share-method="host"
           data-aspect-ratio="1.77654"

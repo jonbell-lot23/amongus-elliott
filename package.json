@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "next build && next export && rsync -avz --delete out/ uxlaunch@uxlaunchpad.com:/home4/uxlaunch/www/amongus_elliottbell",
     "start": "next start",
     "lint": "next lint"
   },
